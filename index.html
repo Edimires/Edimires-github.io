@@ -10,20 +10,35 @@
 <body>
     <section id="slick"><!--Area de formulario-->
         <div class="contact-form"> <!--Titulo para css-->
-            <div class="title">CALCULO DE RETENCION DE RENTA  <!--Texto indicativo-->
-               
+            
+            <div class="sidebar">
+                <div class="fonte">
+                    <img src="img/escudo.png" class="escudo"width="50" alt="">
+                    <h3>Impuesto sobre la renta</h3>
+                    <ul>
+                        <li><a href="https://portaldgii.mh.gob.sv/ssc/home">Ministerio de Hacienda</a></li>
+                        <li><a href="https://www.mh.gob.sv/downloads/pdf/700-DGII-CM-0000-41.pdf">Cuadro de retenciones</a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </div>
+            </div>  
+
+            <div class="container"><!--Texto indicativo-->
+                <h1 class="title">CALCULO DE RETENCION DE RENTA </h1>
+                
             <!--Formulario para pedir datos-->
                 <div class="w-100"> <!-- -->
                    
-                    <form name="frmCalculo" id="Calculo" action="javascript:void(0);">
+            
+                    <form class="frmInputs" name="frmCalculo" id="Calculo" action="javascript:void(0);">
                         <div class="field"> <!--Campo para la base del rectangulo-->
-                            <input type="number" name="salario" id="salario" min="0" max="50000" step=".1" placeholder="0.00" required />
-                            <span class="entypo-base icon"></span>
-                            <span class="slick-tip left">Ingrese salario nominal</span>
+                            <input class="entrada" type="number" name="salario" id="salario" min="0" max="50000" step=".1" placeholder="0.00" required />
+                            <span class=""></span>
+                            <span class="span">Ingrese salario nominal</span>
                         </div>
                         
                         <!--Botones para enviar datos a JS-->
-                        <input type="submit" value="calcular" class="send" name="btncalcular" id="calcular"/>
+                        <input class="send" type="submit" value="calcular"  name="btncalcular" id="calcular"/>
                         
                     </form>
                 </div>
