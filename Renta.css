@@ -1,0 +1,63 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+
+.results{
+    display: block;
+    Color: #174133;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+} 
+.mostrarRetencion {
+    max-width:500px;
+    max-height: 800px;
+    background: #f4fccb;
+}
+
+.contact-form{
+    max-width:500px;
+    max-height: 800px;
+    background: #c1edf0;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    position: center;
+    padding: 30px;
+}
+
+.title{
+    color:blue;
+}
+
+
+.send{    
+     
+
+
+color: #105066;
+/* Eliminar color de fondo */
+background: #ffffff;
+/* Grosor del borde, estilo de línea y color */
+border: 2px solid #10181b;
+/* Añadir esquinas curvadas */
+border-radius: 6px;
+/* Poner texto en mayúsculas */
+      border: solid;
+      color: rgb(38, 66, 64);
+      padding: 16px 32px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      -webkit-transition-duration: 0.6s; /* Safari */
+      transition-duration: 0.6s;
+      cursor: pointer;
+      text-decoration: none;
+      text-transform: uppercase;
+}
+.send {
+      background-color: white; 
+      color: black; 
+      border: 2px solid #008CBA;
+}

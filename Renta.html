@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de Renta</title>
+    <link rel="stylesheet" href="Renta.css"/>
+</head>
+<body>
+    <section id="slick"><!--Area de formulario-->
+        <div class="contact-form"> <!--Titulo para css-->
+            <div class="title">CALCULO DE RETENCION DE RENTA  <!--Texto indicativo-->
+               
+            <!--Formulario para pedir datos-->
+                <div class="w-100"> <!-- -->
+                   
+                    <form name="frmCalculo" id="Calculo" action="javascript:void(0);">
+                        <div class="field"> <!--Campo para la base del rectangulo-->
+                            <input type="number" name="salario" id="salario" min="0" max="50000" step=".1" placeholder="0.00" required />
+                            <span class="entypo-base icon"></span>
+                            <span class="slick-tip left">Ingrese salario nominal</span>
+                        </div>
+                        
+                        <!--Botones para enviar datos a JS-->
+                        <input type="submit" value="calcular" class="send" name="btncalcular" id="calcular"/>
+                        
+                    </form>
+                </div>
+                
+                <div class = "mostrarRetencion" id="mostrar" name = "mostrarDatos">
+                    <span id="RentaSioNo" class="results" display="hidden"></span>
+                    <span id="isss" class="results" display="hidden"></span>
+                    <span id="afp" class="results" display="hidden"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script src="Renta.js"></script>    
+</body>
+</html>
